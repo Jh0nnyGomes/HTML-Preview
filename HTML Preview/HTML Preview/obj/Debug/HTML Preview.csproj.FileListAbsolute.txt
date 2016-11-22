@@ -1,1 +1,9 @@
 C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe.config
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\bin\Debug\HTML Preview.pdb
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csprojResolveAssemblyReference.cache
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Form1.resources
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Properties.Resources.resources
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csproj.GenerateResource.Cache
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.exe
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.pdb
