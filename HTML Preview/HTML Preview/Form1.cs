@@ -38,14 +38,14 @@ namespace HTML_Preview
             txt_html.BackColor = TxtBoxColorDark;
             txt_html.ForeColor = TextColorWhite;
             txt_html.BorderStyle = BorderStyle.None;
-            txt_html.Font = new Font("Csmbria", 16);
+            txt_html.Font = new Font("Cambria", 16);
 
             txt_css.Height = Height - 100;
             txt_css.Width = Width / 3 - 20;
             txt_css.BackColor = TxtBoxColorDark;
             txt_css.ForeColor = TextColorWhite;
             txt_css.BorderStyle = BorderStyle.None;
-            txt_css.Font = new Font("Csmbria", 16);
+            txt_css.Font = new Font("Cambria", 16);
 
 
             webBrowser1.Height = Height - 100;
