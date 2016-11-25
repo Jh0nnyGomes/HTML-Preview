@@ -31,6 +31,17 @@
             this.txt_html = new System.Windows.Forms.TextBox();
             this.txt_css = new System.Windows.Forms.TextBox();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.fileMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.apriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salvaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chiudiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.strumentiMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.TemiMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.chiaroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scuroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.personalizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // txt_html
@@ -59,6 +70,93 @@
             this.webBrowser1.Size = new System.Drawing.Size(89, 20);
             this.webBrowser1.TabIndex = 2;
             // 
+            // menuStrip
+            // 
+            this.menuStrip.BackColor = System.Drawing.SystemColors.Control;
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileMenuStrip,
+            this.strumentiMenuStrip,
+            this.TemiMenuStrip});
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip.TabIndex = 3;
+            this.menuStrip.Text = "menuStrip1";
+            // 
+            // fileMenuStrip
+            // 
+            this.fileMenuStrip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.fileMenuStrip.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.apriToolStripMenuItem,
+            this.salvaToolStripMenuItem,
+            this.chiudiToolStripMenuItem});
+            this.fileMenuStrip.Name = "fileMenuStrip";
+            this.fileMenuStrip.Size = new System.Drawing.Size(37, 20);
+            this.fileMenuStrip.Text = "File";
+            // 
+            // apriToolStripMenuItem
+            // 
+            this.apriToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.apriToolStripMenuItem.Name = "apriToolStripMenuItem";
+            this.apriToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.apriToolStripMenuItem.Text = "Apri";
+            // 
+            // salvaToolStripMenuItem
+            // 
+            this.salvaToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.salvaToolStripMenuItem.Name = "salvaToolStripMenuItem";
+            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salvaToolStripMenuItem.Text = "Salva";
+            // 
+            // chiudiToolStripMenuItem
+            // 
+            this.chiudiToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.chiudiToolStripMenuItem.Name = "chiudiToolStripMenuItem";
+            this.chiudiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chiudiToolStripMenuItem.Text = "Chiudi";
+            // 
+            // strumentiMenuStrip
+            // 
+            this.strumentiMenuStrip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.strumentiMenuStrip.Name = "strumentiMenuStrip";
+            this.strumentiMenuStrip.Size = new System.Drawing.Size(71, 20);
+            this.strumentiMenuStrip.Text = "Strumenti";
+            // 
+            // TemiMenuStrip
+            // 
+            this.TemiMenuStrip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.TemiMenuStrip.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.chiaroToolStripMenuItem,
+            this.scuroToolStripMenuItem,
+            this.personalizzaToolStripMenuItem});
+            this.TemiMenuStrip.Name = "TemiMenuStrip";
+            this.TemiMenuStrip.Size = new System.Drawing.Size(45, 20);
+            this.TemiMenuStrip.Text = "Temi";
+            // 
+            // chiaroToolStripMenuItem
+            // 
+            this.chiaroToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.chiaroToolStripMenuItem.Name = "chiaroToolStripMenuItem";
+            this.chiaroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chiaroToolStripMenuItem.Text = "Chiaro";
+            this.chiaroToolStripMenuItem.Click += new System.EventHandler(this.chiaroToolStripMenuItem_Click);
+            // 
+            // scuroToolStripMenuItem
+            // 
+            this.scuroToolStripMenuItem.AutoToolTip = true;
+            this.scuroToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.scuroToolStripMenuItem.Name = "scuroToolStripMenuItem";
+            this.scuroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.scuroToolStripMenuItem.Text = "Scuro";
+            this.scuroToolStripMenuItem.Click += new System.EventHandler(this.scuroToolStripMenuItem_Click);
+            // 
+            // personalizzaToolStripMenuItem
+            // 
+            this.personalizzaToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.personalizzaToolStripMenuItem.Name = "personalizzaToolStripMenuItem";
+            this.personalizzaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.personalizzaToolStripMenuItem.Text = "Personalizza";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -67,9 +165,13 @@
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.txt_css);
             this.Controls.Add(this.txt_html);
+            this.Controls.Add(this.menuStrip);
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -80,6 +182,16 @@
         private System.Windows.Forms.TextBox txt_html;
         private System.Windows.Forms.TextBox txt_css;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.MenuStrip menuStrip;
+        private System.Windows.Forms.ToolStripMenuItem fileMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem apriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salvaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chiudiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem strumentiMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem TemiMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem chiaroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem scuroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem personalizzaToolStripMenuItem;
     }
 }
 
