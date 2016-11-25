@@ -35,7 +35,7 @@
             // 
             // txt_html
             // 
-            this.txt_html.Location = new System.Drawing.Point(2, 2);
+            this.txt_html.Location = new System.Drawing.Point(2, 34);
             this.txt_html.Multiline = true;
             this.txt_html.Name = "txt_html";
             this.txt_html.Size = new System.Drawing.Size(86, 20);
@@ -44,7 +44,7 @@
             // txt_css
             // 
             this.txt_css.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.txt_css.Location = new System.Drawing.Point(94, 2);
+            this.txt_css.Location = new System.Drawing.Point(94, 34);
             this.txt_css.Multiline = true;
             this.txt_css.Name = "txt_css";
             this.txt_css.Size = new System.Drawing.Size(94, 20);
@@ -53,7 +53,7 @@
             // webBrowser1
             // 
             this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(194, 2);
+            this.webBrowser1.Location = new System.Drawing.Point(194, 34);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(89, 20);
