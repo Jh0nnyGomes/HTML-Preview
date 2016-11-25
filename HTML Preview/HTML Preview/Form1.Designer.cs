@@ -40,7 +40,11 @@
             this.TemiMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.chiaroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.scuroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.personalizzaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_new = new System.Windows.Forms.Button();
+            this.btn_load = new System.Windows.Forms.Button();
+            this.btn_continue = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,13 +77,14 @@
             // menuStrip
             // 
             this.menuStrip.BackColor = System.Drawing.SystemColors.Control;
+            this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileMenuStrip,
             this.strumentiMenuStrip,
             this.TemiMenuStrip});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip.Size = new System.Drawing.Size(161, 24);
             this.menuStrip.TabIndex = 3;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -98,21 +103,21 @@
             // 
             this.apriToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.apriToolStripMenuItem.Name = "apriToolStripMenuItem";
-            this.apriToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.apriToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.apriToolStripMenuItem.Text = "Apri";
             // 
             // salvaToolStripMenuItem
             // 
             this.salvaToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.salvaToolStripMenuItem.Name = "salvaToolStripMenuItem";
-            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.salvaToolStripMenuItem.Text = "Salva";
             // 
             // chiudiToolStripMenuItem
             // 
             this.chiudiToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.chiudiToolStripMenuItem.Name = "chiudiToolStripMenuItem";
-            this.chiudiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chiudiToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.chiudiToolStripMenuItem.Text = "Chiudi";
             // 
             // strumentiMenuStrip
@@ -127,8 +132,7 @@
             this.TemiMenuStrip.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.TemiMenuStrip.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.chiaroToolStripMenuItem,
-            this.scuroToolStripMenuItem,
-            this.personalizzaToolStripMenuItem});
+            this.scuroToolStripMenuItem});
             this.TemiMenuStrip.Name = "TemiMenuStrip";
             this.TemiMenuStrip.Size = new System.Drawing.Size(45, 20);
             this.TemiMenuStrip.Text = "Temi";
@@ -137,7 +141,7 @@
             // 
             this.chiaroToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.chiaroToolStripMenuItem.Name = "chiaroToolStripMenuItem";
-            this.chiaroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chiaroToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.chiaroToolStripMenuItem.Text = "Chiaro";
             this.chiaroToolStripMenuItem.Click += new System.EventHandler(this.chiaroToolStripMenuItem_Click);
             // 
@@ -146,22 +150,62 @@
             this.scuroToolStripMenuItem.AutoToolTip = true;
             this.scuroToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.scuroToolStripMenuItem.Name = "scuroToolStripMenuItem";
-            this.scuroToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.scuroToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.scuroToolStripMenuItem.Text = "Scuro";
             this.scuroToolStripMenuItem.Click += new System.EventHandler(this.scuroToolStripMenuItem_Click);
             // 
-            // personalizzaToolStripMenuItem
+            // panel1
             // 
-            this.personalizzaToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.personalizzaToolStripMenuItem.Name = "personalizzaToolStripMenuItem";
-            this.personalizzaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.personalizzaToolStripMenuItem.Text = "Personalizza";
+            this.panel1.Location = new System.Drawing.Point(553, 180);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 4;
+            // 
+            // btn_new
+            // 
+            this.btn_new.FlatAppearance.BorderSize = 0;
+            this.btn_new.Location = new System.Drawing.Point(159, 305);
+            this.btn_new.Name = "btn_new";
+            this.btn_new.Size = new System.Drawing.Size(107, 23);
+            this.btn_new.TabIndex = 5;
+            this.btn_new.Text = "Nuovo Progetto";
+            this.btn_new.UseVisualStyleBackColor = true;
+            // 
+            // btn_load
+            // 
+            this.btn_load.Location = new System.Drawing.Point(286, 304);
+            this.btn_load.Name = "btn_load";
+            this.btn_load.Size = new System.Drawing.Size(75, 23);
+            this.btn_load.TabIndex = 6;
+            this.btn_load.Text = "Carica";
+            this.btn_load.UseVisualStyleBackColor = true;
+            // 
+            // btn_continue
+            // 
+            this.btn_continue.Location = new System.Drawing.Point(380, 305);
+            this.btn_continue.Name = "btn_continue";
+            this.btn_continue.Size = new System.Drawing.Size(75, 23);
+            this.btn_continue.TabIndex = 7;
+            this.btn_continue.Text = "Continua";
+            this.btn_continue.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(509, 426);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(1028, 544);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btn_continue);
+            this.Controls.Add(this.btn_load);
+            this.Controls.Add(this.btn_new);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.txt_css);
             this.Controls.Add(this.txt_html);
@@ -191,7 +235,11 @@
         private System.Windows.Forms.ToolStripMenuItem TemiMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem chiaroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem scuroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem personalizzaToolStripMenuItem;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btn_new;
+        private System.Windows.Forms.Button btn_load;
+        private System.Windows.Forms.Button btn_continue;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
