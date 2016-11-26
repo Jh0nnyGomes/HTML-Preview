@@ -1,0 +1,47 @@
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe.config
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\bin\Debug\HTML Preview.pdb
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csprojResolveAssemblyReference.cache
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Form1.resources
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Properties.Resources.resources
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csproj.GenerateResource.Cache
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.exe
+C:\Users\cad\Desktop\Git\HTML Preview\HTML Preview\obj\Debug\HTML Preview.pdb
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe.config
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.exe
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.pdb
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\bin\Debug\HTML Preview.pdb
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csprojResolveAssemblyReference.cache
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Form1.resources
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Properties.Resources.resources
+C:\Users\aula10\Documents\4I1\HTML Preview Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csproj.GenerateResource.Cache
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe.config
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\bin\Debug\HTML Preview.pdb
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csprojResolveAssemblyReference.cache
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Form1.resources
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Properties.Resources.resources
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csproj.GenerateResource.Cache
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.exe
+C:\Users\Jhonny\Desktop\Git\HTML-Preview\HTML Preview\HTML Preview\obj\Debug\HTML Preview.pdb
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe.config
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.exe
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.pdb
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\bin\Debug\HTML Preview.pdb
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csprojResolveAssemblyReference.cache
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Form1.resources
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Properties.Resources.resources
+C:\Users\Jhonny\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csproj.GenerateResource.Cache
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.EditorForm.resources
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML_Preview.Properties.Resources.resources
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csproj.GenerateResource.Cache
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe.config
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\bin\Debug\HTML Preview.exe
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\bin\Debug\HTML Preview.pdb
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\bin\Debug\FileManagement.dll
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\bin\Debug\FileManagement.pdb
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.exe
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.pdb
+C:\Users\juoli\Desktop\HTML Preview\HTML Preview\obj\Debug\HTML Preview.csprojResolveAssemblyReference.cache
